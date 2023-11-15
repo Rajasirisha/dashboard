@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.right {
+  background: url(./images/loginImage.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
